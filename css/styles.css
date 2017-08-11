@@ -12,12 +12,13 @@ img {
 }
 
 p {
+  font-size: 130%;
   text-align: center;
   margin-left: 7%;
   margin-right: 7%;
 }
 
 ul {
-  text-align: center;
   color: indigo;
+  font-style: italic;
 }
