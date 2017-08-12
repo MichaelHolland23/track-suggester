@@ -1,8 +1,16 @@
 h1 {
   text-align: center;
 }
-h2{
+h2 {
   color: blue;
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+  color: indigo;
+}
+h4 {
   text-align: center;
 }
 
@@ -12,13 +20,11 @@ img {
 }
 
 p {
-  font-size: 130%;
   text-align: center;
-  margin-left: 7%;
-  margin-right: 7%;
+  margin-left: 3%;
+  margin-right: 3%;
 }
 
-ul {
-  color: indigo;
-  font-style: italic;
+#Ruby, #JavaAndroid, #PHPDrupal {
+  display: none;
 }

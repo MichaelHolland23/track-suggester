@@ -10,28 +10,76 @@
   <body>
     <div class="container">
       <div class="jumbotron">
-      <h1>The Exciting Tracks at Epicodus!<h1/>
-      <h2>Which track are you best suited for?</h2>
+        <h1>The Exciting Tracks at Epicodus!<h1/>
+        <h2>Which track are you best suited for?</h2>
       </div>
       <img src="img/ponder.jpg">
-      <p>The world of web design offers many possible routes for your career. One of the most important decisions you will make before you dive in, is about the programming language you will choose to focus on. Fortunately, Epicodus has you covered!</p>
-      <p>Here are some of the things to consider before choosing your track:</p>
+      <h4>The world of web design offers many possible routes for your career. One of the most important decisions you will make before you dive in, is about the programming language you will choose to focus on. Fortunately, Epicodus has you covered!</h4>
+      <h4>The founder of Epicodus, Michael Kyser Nyman, has sumarized:</h4>
       <div class="row">
-        <div class="col-md-6">
-          <ul>
-            <li>Do you want to work for a large, established company or a small, hip start-up?</li>
-            <li>Are you more interested in designing cool-looking websites or do you want to learn more about how websites work?</li>
-          </ul>
+        <div class="col-md-3">
+          <h3>Ruby/Rails</h3>
+          <p>Ruby is a favorite language of developers building interactive web applications. If an app involves users creating accounts, entering information, and interacting with dynamic content, there's a good chance it is built with Ruby. Ruby became popular because the Rails framework, which is written with Ruby, simplified many of the common tasks associated with building web applications. It's most popular with startups and smaller companies who are looking to build their product quickly.</p>
         </div>
-        <div class="col-md-6">
-          <ul>
-            <li>Are you interested in developing apps or general internet sofware?</li>
-            <li>Do you want to make a lot of money or have a large salary?</li>
-          </ul>
+        <div class="col-md-3">
+          <h3>PHP/Drupal</h3>
+          <p>PHP is by far the most popular backend language today, with 80 percent of websites utilizing it 'server-side'. It is perhaps best known for it's use in content management systems like Wordpress, Drupal, and Joomla. But the versatility of the language and the frameworks it powers make employment options numerous and diverse. If you're keen to work for a fast paced agency that builds websites for lots of clients, or maintain the security and stability of a huge complex of government websites, or if you like the idea of building out small sites for brands, businesses, and organizations - In any of these cases, PHP would be a great way to go.
+          </p>
+        </div>
+        <div class="col-md-3">
+          <h3>Java/Android</h3>
+          <p>Java is also a favorite of enterprise companies, but its appeal is broader as well: it's one of the most popular of all programming languages, and it's used in everything from for high-performance processing to building Android user interfaces. Because Java has been very popular for a very long time and is used in so many applications, it is also a very high-demand language. If you're interested in working for an enterprise-level company, as an Android developer, or in high-performance applications, Java could be a good language to learn.
+          </p>
+        </div>
+        <div class="col-md-3">
+          <h3>C#</h3>
+            <p>C# is most popular among bigger established businesses, often for building internal software. Because it's been around for a long time and has the backing of Microsoft, it is one of the most in-demand languages in the job market. C# has also been going through a bit of a rebirth lately, with Microsoft open sourcing the language and surrounding platform, porting it to run on Mac and Linux, and incorporating many of the best features of other languages. If you like the idea of working for a larger company on business software, C# is a great choice.
+            </p>
         </div>
       </div>
-
-
+      <h4>If you're still unsure which of these languages is the one for you, take a couple minutes to answer the following questions. This should help steer you in the right direction.</h4>
+        <div class="well">
+          <form id="track">
+          <label for="quest5">Are you interested in how websites work, as opposed to how they look?</label>
+          <select id="quest5">
+            <option>Yes</option>
+            <option>No</option>
+          </select>
+          <label for="quest1">Do you want to work for a larger company?</label>
+          <select id="quest1">
+            <option>Yes</option>
+            <option>No</option>
+          </select>
+          <label for="quest2">Are you comfortable working in teams?</label>
+          <select id="quest2">
+            <option>Yes</option>
+            <option>No</option>
+          </select>
+          <label for="quest3">Do you like newer technologies?</label>
+          <select id="quest3">
+            <option>Yes</option>
+            <option>No</option>
+          </select>
+          <label for="quest4">Aren't people in the Ruby track the coolest?</label>
+          <select id="quest4">
+            <option>Yes</option>
+            <option>No</option>
+          </select>
+          <button type="submit" class="btn">Your optimum track</button>
+          </form>
+        </div>
+      <div id="Ruby">
+        <p>Excellent! It looks like the Ruby/Rails track is your best bet!
+        </p>
+      </div>
+      <div id="PHPDrupal">
+        <p>Great! You should look closer at PHP/Drupal!
+        </p>
+      </div>
+      <div id="JavaAndroid">
+        <p>Super! You're going to love the Java/Android track!
+        </p>
+      </div>
 
 
     </div>

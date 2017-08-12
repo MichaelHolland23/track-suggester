@@ -1,12 +1,12 @@
-# _{track-suggester}_
+# _track-suggester_
 
-#### _{A website to help the user determine which courses to pursue.}, {August 11th, 2017}_
+#### _A website to help the user determine which courses to pursue., August 11th, 2017_
 
 #### By _**{Michael Holland}**_
 
 ## Description
 
-_{This website is designed to give the user some information about the different courses in web development available to them, and help them to determine which one is right for them. It lists basic information about each track. It then uses the "forms" function in Javascript to gather information and takes their combination of inputs to give them a personalized recommendation.}_
+_This website is designed to give the user some information about the different courses in web development available to them, and help them to determine which one is right for them. It lists basic information about each track. It then uses the "forms" function in Javascript to gather information and takes their combination of inputs to give them a personalized recommendation._
 
 ## Setup/Installation Requirements
 
@@ -19,17 +19,17 @@ There are no known bugs at this time. This project is still in development.
 
 ## Support and contact details
 
-_{If there are any questions, comments or ideas about the code, please contact me at michaellholland@hotmail.com}_
+_If there are any questions, comments or ideas about the code, please contact me at michaellholland@hotmail.com_
 
 ## Technologies Used
 
-_{HTML
+_HTML
   CSS
   Javascript
-  Bootstrap}_
+  Bootstrap_
 
 ### License
 
-*{This software is licensed under the MIT license.}*
+*This software is licensed under the MIT license.*
 
-Copyright (c) 2017 **_{Michael Holland}_**
+Copyright (c) 2017 **_Michael Holland_**
