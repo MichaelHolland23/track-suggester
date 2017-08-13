@@ -1,20 +1,20 @@
 $(document).ready(function() {
-  $("form#track").submit(function(event) {
-
-    var quest1 = $parseInt("#quest1").val();
-    var quest2 = $parseInt("#quest2").val();
-    var quest3 = $parseInt("#quest3").val();
-    var quest4 = $parseInt("#quest4").val();
-    var quest5 = $parseInt("#quest5").val();
-
-    if (quest1 === "Yes" && quest2 === "No" && quest3 === "No" && quest4 === "No" && quest5 ==="No") {
-       $("#Ruby").show();
-    }  else if (quest1 === "No" && quest2 === "Yes" && quest3 === "No" && quest4 === "Yes" && quest5 === "No") {
-       $("#PHPDrupal").show();
-    }  else {
-    $("#JavaAdroid").show();
-    }
+  $("#track").submit(function(event) {
     event.preventDefault();
+
+    var quest1 = parseInt($("#quest1").val());
+    var quest2 = parseInt($("#quest2").val());
+    var quest3 = parseInt($("#quest3").val());
+    var quest4 = parseInt($("#quest4").val());
+    var quest5 = parseInt($("#quest5").val());
+
+    if (quest1 === 1 && quest2 === 2 && quest3 === 2 && quest4 === 2 && quest5 === 2) {
+      $("#Ruby").show();
+    } else if (quest1 === 2 && quest2 === 1 && quest3 === 2 && quest4 === 1 && quest5 === 2) {
+      $("#PHPDrupal").show();
+    } else {
+      $("#JavaAndroid").show();
+    }
 
   });
 });
