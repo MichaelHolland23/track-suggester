@@ -37,3 +37,7 @@ p {
 #PHPDrupal {
   display: none;
 }
+.suggest {
+  color: red;
+  font-size: 200%
+}

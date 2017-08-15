@@ -10,7 +10,7 @@ $(document).ready(function() {
 
     if (quest1 === 1 && quest2 === 2 && quest3 === 2 && quest4 === 2 && quest5 === 2) {
       $("#Ruby").show();
-    } else if (quest1 === 2 && quest2 === 1 && quest3 === 2 && quest4 === 1 && quest5 === 2) {
+    } else if (quest1 === 2 && quest2 === 1 && quest3 === 1 && quest4 === 1 && quest5 === 1) {
       $("#PHPDrupal").show();
     } else {
       $("#JavaAndroid").show();
