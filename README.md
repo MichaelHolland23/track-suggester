@@ -15,7 +15,7 @@ _
 
 ## Known Bugs
 
-There are no known bugs at this time. This project is still in development.
+There are no known bugs at this time.
 
 ## Support and contact details
 
